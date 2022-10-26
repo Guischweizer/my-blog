@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Guilherme Schweizer',
   email: 'guilherme.schweizer@gmail.com',
   link: 'https://jesuisgui.tech',
-  description: 'This blog was made with the objective of sharing tech knowledge! Hope u enjoy it.',
+  description: 'My personal place where I learn and share knowledge! Welcome.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
