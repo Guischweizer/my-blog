@@ -14,6 +14,8 @@ jobs:
 
     - name: Build Project
       run: |
+        export ${{ secrets.NOTION_PAGE_ID }}
+        echo ${{ secrets.NOTION_PAGE_ID }}
         yarn install
         yarn build
         yarn export
