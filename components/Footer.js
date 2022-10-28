@@ -15,6 +15,10 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
+          <div className='flex'>
+          <a href='https://www.linkedin.com/in/guilherme-schweizer/' target="_blank" rel='noreferrer'><img src='/linkedin-logo.png'/></a>
+          <a href='https://twitter.com/GuilhermeSchw' target="_blank" rel='noreferrer'><img src='/twitter-logo.png'/></a>
+          </div>
         </div>
       </div>
     </div>
